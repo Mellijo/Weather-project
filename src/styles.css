@@ -1,0 +1,38 @@
+body {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  padding: 30px;
+}
+h2 {
+  padding: 10px;
+}
+
+.card {
+  padding: 5px;
+  display: block;
+  margin: 40px;
+}
+
+#city-field {
+  width: 400px;
+  margin: 0;
+}
+#search-form {
+  position: relative;
+}
+#search-button {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
