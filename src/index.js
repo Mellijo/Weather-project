@@ -27,7 +27,7 @@ function showCity(event) {
   event.preventDefault();
 
   let h1 = document.querySelector("#h1city");
-  let city = document.querySelector("#city-field").value;
+  let city = document.querySelector("#city-finder").value;
   console.log(city);
   h1.innerHTML = city;
   let apiKey = "0f8bc384a7c31b717a18cfe38a95ae06";
@@ -35,8 +35,9 @@ function showCity(event) {
   axios.get(apiUrl).then(showTemperature);
 }
 
-let inputForm = document.querySelector("#search-form");
-inputForm.addEventListener("submit", showCity);
+let inputButton = document.querySelector("#search-button");
+inputButton.addEventListener("click", showCity);
+console.log("added submit listener");
 
 function showTemperature(response) {
   let temperature = Math.round(response.data.main.temp);

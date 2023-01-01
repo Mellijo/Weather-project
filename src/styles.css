@@ -23,16 +23,8 @@ h2 {
 }
 
 #city-field {
-  width: 400px;
-  margin: 0;
+  background-color: blueviolet;
 }
-#search-form {
-  position: relative;
-}
+
 #search-button {
-  width: 100px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 5px;
 }
