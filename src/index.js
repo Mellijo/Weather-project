@@ -37,7 +37,6 @@ function showCity(event) {
 
 let inputButton = document.querySelector("#search-button");
 inputButton.addEventListener("click", showCity);
-console.log("added submit listener");
 
 function showTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
